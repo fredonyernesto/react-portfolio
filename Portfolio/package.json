@@ -8,6 +8,7 @@
     "start": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "clean": "rm -rf node_modules dist && npm install",
     "preview": "vite preview"
   },
   "dependencies": {

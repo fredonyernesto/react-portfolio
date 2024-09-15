@@ -6,8 +6,8 @@ import App from './App';
 import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import About from './pages/About';
-import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import Portfolio from './pages/Portfolio';  // Ensure this import matches the default export
 
 const router = createBrowserRouter([
   {
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'portfolio',
-        element: <Portfolio />,
+        element: <Portfolio />,  // Portfolio component
       },
       {
         path: 'resume',
