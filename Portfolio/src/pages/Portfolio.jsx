@@ -23,9 +23,9 @@ export default function Repositories() {
 
     return (
         <div>
-            <h1 id='my-repos-title'>My GitHub Repositories</h1>
-            <div className="container">
+             <div className="container">
                 <ul className="po_items_ho">
+                   <h1>My GitHub Repositories</h1>
                     {repos.map(repo => (
                         <li key={repo.id} >
                             <a href={repo.html_url} target="_blank" className="po_item">

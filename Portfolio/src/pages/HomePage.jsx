@@ -2,7 +2,7 @@ import styles from '../components/HomePage/HomePage.module.css';
 
 export default function HomePage() {
   return (
-      <sectoion className={styles.container}>
+      <section className={styles.container}>
           <div className={styles.content}>
               <h1 className={styles.Title}>
                   Hello,<br />
@@ -14,11 +14,11 @@ export default function HomePage() {
                   With hands-on experience in JavaScript, Node.js, and various frameworks, I thrive on building dynamic and engaging applications. 
                   Whether it's creating a user-friendly interface or optimizing backend functionality, I enjoy the challenge of bringing ideas to life through code.
               </p>
-              <a href="mailto:fredony.ernesto@gmail.com">Contact Me</a>
+              <a href="mailto:fredony.ernesto@gmail.com"><button>Contact Me</button></a>
           </div>
           {/* <img src={getImageUrl("hero/heroImage.png")} alt="Me" /> */}
           <div className={styles.topBlur}></div>
           <div className={styles.bottomBlur}></div>
-      </sectoion>
+      </section>
   );
 }
